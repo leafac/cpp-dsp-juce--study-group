@@ -5,7 +5,7 @@
 <a href="https://www.youtube.com/c/leafac"><strong>Meetings on YouTube</strong></a>
 </h3>
 
-# Join us on [Discord](https://discord.gg/3jWqw4AyuE). Introduce yourself on the #leandro-facchinetti channel.
+# 👉 Join us on [Discord](https://discord.gg/3jWqw4AyuE). Introduce yourself on the #leandro-facchinetti channel.
 
 ## What We’ll Cover?
 
