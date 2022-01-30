@@ -21,7 +21,7 @@
 
 ## Timeline
 
-The first meeting is on 2022-02-01, and we don’t have a definite schedule yet. You’re welcome to join later and you may catch up with what we’ve been doing to by [watching the meetings on YouTube](https://www.youtube.com/c/leafac).
+The first meeting is on 2022-02-01, 18:30 UTC, and we don’t have a definite schedule yet. You’re welcome to join later and you may catch up with what we’ve been doing to by [watching the meetings on YouTube](https://www.youtube.com/c/leafac).
 
 ## People
 
