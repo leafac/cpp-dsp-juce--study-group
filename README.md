@@ -5,6 +5,8 @@
 <a href="https://www.youtube.com/c/leafac"><strong>Meetings on YouTube</strong></a>
 </h3>
 
+# Join us on [Discord](https://discord.gg/3jWqw4AyuE). Introduce yourself on the #leandro-facchinetti channel.
+
 ## What We’ll Cover?
 
 - **The basics of C++.** We’ll start at a pace that’s suitable for beginners and cover only the most essential features of the language, not everything it has to offer—C++ is a big language.
@@ -35,7 +37,7 @@ Leandro Facchinetti
 </td>
 <td>
 <p align="center">
-<a href="https://leafac.com">
+<a href="https://www.youtube.com/user/seethisaccount">
 <img alt="Fotis" src="images/fotis.png" width="80"><br/>
 Fotis
 </a>
