@@ -2,7 +2,8 @@
 
 <h3 align="center">
 <a href="https://discord.gg/3jWqw4AyuE"><strong>Conversations on Discord</strong></a> ·
-<a href="https://www.youtube.com/c/leafac"><strong>Meetings on YouTube</strong></a>
+<a href="https://www.youtube.com/c/leafac"><strong>Meetings on YouTube</strong></a> ·
+<a href="documentation/meeting-notes.md"><strong>Meeting Notes</strong></a>
 </h3>
 
 # 👉 Join us on [Discord](https://discord.gg/3jWqw4AyuE). Introduce yourself on the #leandro-facchinetti channel.

@@ -1,5 +1,7 @@
 # 2022-02-01
 
+[**Meeting**](https://www.youtube.com/watch?v=FutGtjbElBA)
+
 We started by introducing ourselves. We have some people who are new to programming, and so people who are authors of C++ programming books(!)
 
 **Logistics**
