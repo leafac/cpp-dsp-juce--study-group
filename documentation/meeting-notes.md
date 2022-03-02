@@ -1,3 +1,11 @@
+# 2022-03-02
+
+[**Meeting**](https://youtu.be/xagHKQTdMd4)
+
+- Fotis followed along some The Audio Programmer tutorials, but got stuck, and we helped him get unstuck. He’ll continue with the tutorials and think about some synth ideas.
+- Cwits found a library able to communicate with Push from a Raspberry Pi. He also found some algorithms like delay and filters. He’ll now try to connect the controller code to the audio-processing code.
+- Leandro found a way to compute RMS with JUCE. It turns out that it may not give the control necessary for the automixer to work (bigger window sizes independent of the buffer size). He’ll now come up with a custom RMS computation.
+
 # 2022-02-15
 
 [**Meeting**](https://youtu.be/v4YRmSR6VC8)
