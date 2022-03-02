@@ -153,7 +153,7 @@ void AutomixerAudioProcessor::processBlock (juce::AudioBuffer<float>& buffer, ju
     for (int channel = 0; channel < totalNumInputChannels; ++channel)
     {
         auto* channelData = buffer.getWritePointer (channel);
-
+        buffer.getRMSLevel(0, 0, buffer.getNumSamples() + 1000);
         // ..do something to the data...
     }
 }
