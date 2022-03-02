@@ -2,9 +2,18 @@
 
 [**Meeting**](https://youtu.be/xagHKQTdMd4)
 
-- Fotis followed along some The Audio Programmer tutorials, but got stuck, and we helped him get unstuck. He’ll continue with the tutorials and think about some synth ideas.
-- Cwits found a library able to communicate with Push from a Raspberry Pi. He also found some algorithms like delay and filters. He’ll now try to connect the controller code to the audio-processing code.
-- Leandro found a way to compute RMS with JUCE. It turns out that it may not give the control necessary for the automixer to work (bigger window sizes independent of the buffer size). He’ll now come up with a custom RMS computation.
+- Progress:
+  - Fotis followed along some The Audio Programmer tutorials, but got stuck, and we helped him get unstuck. He’ll continue with the tutorials and think about some synth ideas.
+  - Cwits found a library able to communicate with Push from a Raspberry Pi. He also found some algorithms like delay and filters. He’ll now try to connect the controller code to the audio-processing code.
+  - Leandro found a way to compute RMS with JUCE. It turns out that it may not give the control necessary for the automixer to work (bigger window sizes independent of the buffer size). He’ll now come up with a custom RMS computation.
+- Links:
+  - <https://polyversemusic.com/products/wider/>
+  - <https://github.com/lane-s/libpush>
+  - <https://www.flux.audio/spat-revolution-subscription/>
+  - <https://www.musicdsp.org/en/latest/Filters/243-butterworth-optimized-c-class.html>
+  - <https://youlean.co>
+  - <https://iplug2.github.io>
+  - <https://youtu.be/Mo0Oco3Vimo>
 
 # 2022-02-15
 
