@@ -38,5 +38,9 @@ public:
     void processBlock(juce::AudioBuffer<float>&, juce::MidiBuffer&) override;
     
 private:
+    float rmsSquares[48000];
+    int rmsSquaresIndex;
+    float rmsSquaresSum;
+    
     JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR(AutomixerAudioProcessor)
 };
