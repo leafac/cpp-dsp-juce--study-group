@@ -19,9 +19,47 @@ AutomixerAudioProcessor::~AutomixerAudioProcessor()
 {
 }
 
+juce::AudioProcessor* JUCE_CALLTYPE createPluginFilter()
+{
+    return new AutomixerAudioProcessor();
+}
+
 const juce::String AutomixerAudioProcessor::getName() const
 {
     return JucePlugin_Name;
+}
+
+#ifndef JucePlugin_PreferredChannelConfigurations
+bool AutomixerAudioProcessor::isBusesLayoutSupported(const BusesLayout& layouts) const
+{
+#if JucePlugin_IsMidiEffect
+    juce::ignoreUnused(layouts);
+    return true;
+#else
+    if (layouts.getMainOutputChannelSet() != juce::AudioChannelSet::mono()
+        && layouts.getMainOutputChannelSet() != juce::AudioChannelSet::stereo())
+        return false;
+#if ! JucePlugin_IsSynth
+    if (layouts.getMainOutputChannelSet() != layouts.getMainInputChannelSet())
+        return false;
+#endif
+    return true;
+#endif
+}
+#endif
+
+double AutomixerAudioProcessor::getTailLengthSeconds() const
+{
+    return 0.0;
+}
+
+bool AutomixerAudioProcessor::isMidiEffect() const
+{
+#if JucePlugin_IsMidiEffect
+    return true;
+#else
+    return false;
+#endif
 }
 
 bool AutomixerAudioProcessor::acceptsMidi() const
@@ -40,20 +78,6 @@ bool AutomixerAudioProcessor::producesMidi() const
 #else
     return false;
 #endif
-}
-
-bool AutomixerAudioProcessor::isMidiEffect() const
-{
-#if JucePlugin_IsMidiEffect
-    return true;
-#else
-    return false;
-#endif
-}
-
-double AutomixerAudioProcessor::getTailLengthSeconds() const
-{
-    return 0.0;
 }
 
 int AutomixerAudioProcessor::getNumPrograms()
@@ -79,6 +103,24 @@ void AutomixerAudioProcessor::changeProgramName(int index, const juce::String& n
 {
 }
 
+void AutomixerAudioProcessor::getStateInformation(juce::MemoryBlock& destData)
+{
+}
+
+void AutomixerAudioProcessor::setStateInformation(const void* data, int sizeInBytes)
+{
+}
+
+bool AutomixerAudioProcessor::hasEditor() const
+{
+    return true;
+}
+
+juce::AudioProcessorEditor* AutomixerAudioProcessor::createEditor()
+{
+    return new AutomixerAudioProcessorEditor(*this);
+}
+
 void AutomixerAudioProcessor::prepareToPlay(double sampleRate, int samplesPerBlock)
 {
 }
@@ -86,25 +128,6 @@ void AutomixerAudioProcessor::prepareToPlay(double sampleRate, int samplesPerBlo
 void AutomixerAudioProcessor::releaseResources()
 {
 }
-
-#ifndef JucePlugin_PreferredChannelConfigurations
-bool AutomixerAudioProcessor::isBusesLayoutSupported(const BusesLayout& layouts) const
-{
-#if JucePlugin_IsMidiEffect
-    juce::ignoreUnused(layouts);
-    return true;
-#else
-    if (layouts.getMainOutputChannelSet() != juce::AudioChannelSet::mono()
-        && layouts.getMainOutputChannelSet() != juce::AudioChannelSet::stereo())
-        return false;
-#if ! JucePlugin_IsSynth
-    if (layouts.getMainOutputChannelSet() != layouts.getMainInputChannelSet())
-        return false;
-#endif
-    return true;
-#endif
-}
-#endif
 
 void AutomixerAudioProcessor::processBlock(juce::AudioBuffer<float>& buffer, juce::MidiBuffer& midiMessages)
 {
@@ -133,28 +156,4 @@ void AutomixerAudioProcessor::processBlock(juce::AudioBuffer<float>& buffer, juc
         buffer.getRMSLevel(0, 0, buffer.getNumSamples() + 1000);
         // ..do something to the data...
     }
-}
-
-bool AutomixerAudioProcessor::hasEditor() const
-{
-    return true;
-}
-
-juce::AudioProcessorEditor* AutomixerAudioProcessor::createEditor()
-{
-    return new AutomixerAudioProcessorEditor(*this);
-}
-
-//==============================================================================
-void AutomixerAudioProcessor::getStateInformation(juce::MemoryBlock& destData)
-{
-}
-
-void AutomixerAudioProcessor::setStateInformation(const void* data, int sizeInBytes)
-{
-}
-
-juce::AudioProcessor* JUCE_CALLTYPE createPluginFilter()
-{
-    return new AutomixerAudioProcessor();
 }
