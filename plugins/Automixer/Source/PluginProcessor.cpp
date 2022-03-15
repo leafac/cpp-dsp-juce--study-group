@@ -23,24 +23,14 @@ const juce::String AutomixerAudioProcessor::getName() const
     return JucePlugin_Name;
 }
 
-#ifndef JucePlugin_PreferredChannelConfigurations
 bool AutomixerAudioProcessor::isBusesLayoutSupported(const BusesLayout& layouts) const
 {
-#if JucePlugin_IsMidiEffect
-    juce::ignoreUnused(layouts);
-    return true;
-#else
-    if (layouts.getMainOutputChannelSet() != juce::AudioChannelSet::mono()
-        && layouts.getMainOutputChannelSet() != juce::AudioChannelSet::stereo())
-        return false;
-#if ! JucePlugin_IsSynth
-    if (layouts.getMainOutputChannelSet() != layouts.getMainInputChannelSet())
-        return false;
-#endif
-    return true;
-#endif
+    return layouts.getMainInputChannelSet() == layouts.getMainOutputChannelSet() &&
+    (
+     layouts.getMainOutputChannelSet() == juce::AudioChannelSet::mono() ||
+     layouts.getMainOutputChannelSet() == juce::AudioChannelSet::stereo()
+     );
 }
-#endif
 
 double AutomixerAudioProcessor::getTailLengthSeconds() const
 {
@@ -49,29 +39,17 @@ double AutomixerAudioProcessor::getTailLengthSeconds() const
 
 bool AutomixerAudioProcessor::isMidiEffect() const
 {
-#if JucePlugin_IsMidiEffect
-    return true;
-#else
     return false;
-#endif
 }
 
 bool AutomixerAudioProcessor::acceptsMidi() const
 {
-#if JucePlugin_WantsMidiInput
-    return true;
-#else
     return false;
-#endif
 }
 
 bool AutomixerAudioProcessor::producesMidi() const
 {
-#if JucePlugin_ProducesMidiOutput
-    return true;
-#else
     return false;
-#endif
 }
 
 int AutomixerAudioProcessor::getNumPrograms()
