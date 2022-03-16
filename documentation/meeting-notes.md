@@ -1,3 +1,24 @@
+# 2022-03-15
+
+[**Meeting**](https://youtu.be/Sq_XXdnNV8c)
+
+- Progress:
+  - Cwits made a whole engine capable of loading audio-processing modules into a Raspberry Pi and controlling them via an Ableton Push.
+  - Fotis made some progress through the video tutorials on JUCE and started looking into Cabbage & DIN Is Noise.
+  - Leandro got RMS computation of arbitrary sizes working (probably).
+- Links:
+  - <https://www.youtube.com/watch?v=pqYXKRA6DXY>
+  - <https://www.youtube.com/watch?v=q7XrrBXIzfg>
+  - <https://github.com/rorywalsh/cabbage>
+  - <https://github.com/micah-frank-studio/Lore>
+  - <https://github.com/CsoundQt/CsoundQt/>
+  - <https://github.com/csudo/csudo>
+  - <https://github.com/micah-frank-studio/Lore/blob/main/GenerativeDevices/Ember/Ember.csd>
+  - <https://github.com/FluidSynth/fluidsynth>
+  - <https://github.com/davy7125/polyphone>
+  - <https://dinisnoise.org/README/>
+  - <https://www.patreon.com/posts/ncar-35428355>
+
 # 2022-03-02
 
 [**Meeting**](https://youtu.be/xagHKQTdMd4)
