@@ -109,6 +109,8 @@ void AutomixerAudioProcessor::processBlock(juce::AudioBuffer<float>& buffer, juc
     auto inputChannelsCount = getTotalNumInputChannels();
     auto outputChannelsCount = getTotalNumOutputChannels();
     
+    auto bufferWritePointer = buffer.getWritePointer(0);
+    
     // FIXME:
     // 1. The plugin consumes more CPU when there’s no audio running through it. It gives me the impression that there’s some denormalization issue.
     // 2. Having to compute RMS by hand like this seems clunky. There should be a better way…
@@ -129,8 +131,9 @@ void AutomixerAudioProcessor::processBlock(juce::AudioBuffer<float>& buffer, juc
         rmsSquaresIndex++;
         if (rmsSquaresIndex == 48000) rmsSquaresIndex = 0;
         float rms = sqrt(rmsSquaresSum / (48000 * inputChannelsCount));
+        bufferWritePointer[sampleIndex] = rms;
     }
     
-    for (auto channel = 0; channel < outputChannelsCount; channel++)
+    for (auto channel = 1; channel < outputChannelsCount; channel++)
         buffer.clear(channel, 0, buffer.getNumSamples());
 }
