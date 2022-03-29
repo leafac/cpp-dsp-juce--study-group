@@ -130,7 +130,8 @@ void AutomixerAudioProcessor::processBlock(juce::AudioBuffer<float>& buffer, juc
         rmsSquares[rmsSquaresIndex] = rmsChannelsSquares;
         rmsSquaresIndex++;
         if (rmsSquaresIndex == 48000) rmsSquaresIndex = 0;
-        float rms = sqrt(rmsSquaresSum / (48000 * inputChannelsCount));
+        float rms = sqrt(rmsSquaresSum / 48000);
+//        bufferWritePointer[sampleIndex] = 0.5;
         bufferWritePointer[sampleIndex] = rms;
     }
     
