@@ -1,8 +1,15 @@
 # 2022-03-29
 
-- Ergonomics: Having to close and reopen REAPER to load a new version of a VST.
-  - Tale told me a probable reason for this: REAPER keeps the VST loaded in memory; on Windows one isn’t even able to overwrite the VST file while a DAW has it open.
-  - Tried to get the plugin to load in Live, just to check. But Live doesn’t pick it up. Probably because Xcode puts it under `~/Library/Audio/Plug-ins/`, instead of `/Library/Audio/Plug-ins/` 🤷
+[**Meeting**](https://youtu.be/D3OMyljNh8o)
+
+- Unusual meeting because some people were busy and we wanted to catch https://www.youtube.com/watch?v=gnbSMmTiDxk
+- Leandro’s progress:
+  - Ergonomics: Having to close and reopen REAPER to load a new version of a VST.
+    - Tale told me a probable reason for this: REAPER keeps the VST loaded in memory; on Windows one isn’t even able to overwrite the VST file while a DAW has it open.
+    - Tried to get the plugin to load in Live, just to check. But Live doesn’t pick it up. Probably because Xcode puts it under `~/Library/Audio/Plug-ins/`, instead of `/Library/Audio/Plug-ins/` 🤷
+  - Plugin still crashes REAPER from time to time.
+  - Using Tale’s trick of outputting RMS as audio, it turns out that RMS computation is wrong! 🤷
+  - Plugin delays on different automixed tracks could be an issue!
 
 # 2022-03-15
 

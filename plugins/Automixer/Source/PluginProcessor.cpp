@@ -95,7 +95,7 @@ juce::AudioProcessorEditor* AutomixerAudioProcessor::createEditor()
 
 void AutomixerAudioProcessor::prepareToPlay(double sampleRate, int samplesPerBlock)
 {
-    // FIXME: memset(rmsSquares, 0, 48000 * sizeof(float));
+    memset(rmsSquares, 0, 48000 * sizeof(float));
 }
 
 void AutomixerAudioProcessor::releaseResources()
@@ -120,6 +120,8 @@ void AutomixerAudioProcessor::processBlock(juce::AudioBuffer<float>& buffer, juc
     // 6. There’s no way to tell that the RMS computation is actually working.
     
     // Look at Airwindow’s console plugins for the inter-plugin communication.
+    
+    // Sending audio from children tracks & plugin-delay compensation could introduce sync issues.
     for (int sampleIndex = 0; sampleIndex < buffer.getNumSamples(); sampleIndex++)
     {
         float rmsChannelsSquares = 0;
@@ -131,7 +133,7 @@ void AutomixerAudioProcessor::processBlock(juce::AudioBuffer<float>& buffer, juc
         rmsSquaresIndex++;
         if (rmsSquaresIndex == 48000) rmsSquaresIndex = 0;
         float rms = sqrt(rmsSquaresSum / 48000);
-//        bufferWritePointer[sampleIndex] = 0.5;
+        //bufferWritePointer[sampleIndex] = 0.5;
         bufferWritePointer[sampleIndex] = rms;
     }
     
