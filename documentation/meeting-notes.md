@@ -1,3 +1,17 @@
+# 2022-04-13
+
+[**Meeting**](https://youtu.be/ISaeg_YJ4R4)
+
+- Leandro investigated issues related to FX chains with different latency before sending audio to the automixer.
+- Cwits developed a pitch shifter (http://blogs.zynaptiq.com/bernsee/pitch-shifting-using-the-ft/ / https://www.zynaptiq.com/pitchmap/), a tone generator, a mechanism to manage voices, and the beginnings of MIDI processing (http://www.music.mcgill.ca/~ich/classes/mumt306/StandardMIDIfileformat.html).
+- Fotis tested and/or mentioned the following:
+  - https://audiomodeling.com/about-us/technology/
+  - https://www.stagecraftsoftware.com
+  - https://www.stagecraftsoftware.com/products/disarray/
+  - https://github.com/GuitarML?tab=repositories
+  - https://forums.cockos.com/showthread.php?p=2546830
+  - https://babyaud.io/taip-plugin
+
 # 2022-03-29
 
 [**Meeting**](https://youtu.be/D3OMyljNh8o)
