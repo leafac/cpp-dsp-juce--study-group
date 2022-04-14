@@ -118,6 +118,8 @@ void AutomixerAudioProcessor::processBlock(juce::AudioBuffer<float>& buffer, juc
     // 4. It still shows up as “yourcompany”
     // 5. It’s annoying having to restart REAPER on every build.
     // 6. There’s no way to tell that the RMS computation is actually working.
+
+    // Maybe add options to flip polarity and rotate phase before sending the audio?
     
     // Look at Airwindow’s console plugins for the inter-plugin communication.
     
