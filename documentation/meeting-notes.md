@@ -1,3 +1,11 @@
+# 2022-04-26
+
+[**Meeting**](https://youtu.be/p1D43DKp1ns)
+
+- Cwits created a piano roll for the Push. For next meeting he’ll look into how to record MIDI and deal with timing issues.
+- Fotis designed 3 plugins that have to do with synthesis and synesthesia. For next meeting he’ll look into a reverb by BABY Audio & reveal some mysterious plugin in KVR that he’s been talking to the developer about.
+- Leandro learned how to send & receive audio between instances of a plugin. For next meeting he’ll do a couple more experiments with concurrency and latency, and he’ll brush up on C++.
+
 # 2022-04-13
 
 [**Meeting**](https://youtu.be/ISaeg_YJ4R4)
