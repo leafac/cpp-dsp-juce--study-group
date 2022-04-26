@@ -5,6 +5,12 @@
 - Cwits created a piano roll for the Push. For next meeting he’ll look into how to record MIDI and deal with timing issues.
 - Fotis designed 3 plugins that have to do with synthesis and synesthesia. For next meeting he’ll look into a reverb by BABY Audio & reveal some mysterious plugin in KVR that he’s been talking to the developer about.
 - Leandro learned how to send & receive audio between instances of a plugin. For next meeting he’ll do a couple more experiments with concurrency and latency, and he’ll brush up on C++.
+- Links:
+  - http://www.rossbencina.com/writings
+  - https://github.com/airwindows/airwindows/blob/master/plugins/MacSignedVST/Console6Channel/source/Console6ChannelProc.cpp
+    - https://github.com/airwindows/airwindows/blob/master/plugins/MacSignedVST/Console6Buss/source/Console6BussProc.cpp
+  - https://github.com/Samelot/Reaper/blob/master/Effects/LOSER/gmemSend
+  - https://github.com/Samelot/Reaper/blob/master/Effects/LOSER/gmemReceive
 
 # 2022-04-13
 
