@@ -1,3 +1,32 @@
+# 2022-05-11
+
+[**Meeting**](https://youtu.be/flgKOgGaDtQ)
+
+- Bo:
+  - Studying JUCE & C++.
+  - Watching The Audio Programmer and other YouTube tutorials.
+- Cwits:
+  - Taking a break.
+- Fotis:
+  - Created a Bespoke patch.
+  - Bought Fluid Chords.
+  - Tone filter from NieR:Automata.
+- Leandro:
+  - Concurrency between tracks:
+    - <https://gist.github.com/leafac/9151449bcea3c79e9b84e921315fbe59>
+    - One block isn’t enough, probably because the children may start processing the next block before the parent finished processing its own block.
+    - When you hit play, it’s off (it doesn’t null):
+      - Not worry about it?
+      - Fade-in?
+  - Latency
+    - It just works—no latency introduced 🤷
+- Links:
+  - https://www.pitchinnovations.com/products/fluid-chords/
+  - http://themaister.net/blog/2019/02/23/recreating-the-tone-filter-from-nierautomata/
+  - https://www.platinumgames.com/official-blog/article/9581
+  - https://www.kvraudio.com/forum/viewtopic.php?t=521928
+  - https://www.patreon.com/posts/ncar-35428355
+
 # 2022-04-26
 
 [**Meeting**](https://youtu.be/p1D43DKp1ns)

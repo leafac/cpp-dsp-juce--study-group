@@ -138,6 +138,12 @@ void AutomixerAudioProcessor::processBlock(juce::AudioBuffer<float>& buffer, juc
         //bufferWritePointer[sampleIndex] = 0.5;
         bufferWritePointer[sampleIndex] = rms;
     }
+
+    /*
+    - When you hit play, it’s off (it doesn’t null):
+      - Not worry about it?
+      - Fade-in?
+    */
     
     for (auto channel = 1; channel < outputChannelsCount; channel++)
         buffer.clear(channel, 0, buffer.getNumSamples());
