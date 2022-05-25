@@ -96,6 +96,8 @@ juce::AudioProcessorEditor* AutomixerAudioProcessor::createEditor()
 void AutomixerAudioProcessor::prepareToPlay(double sampleRate, int samplesPerBlock)
 {
     memset(rmsSquares, 0, 48000 * sizeof(float));
+    rmsSquaresIndex = 0;
+    rmsSquaresSum = 0;
 }
 
 void AutomixerAudioProcessor::releaseResources()
@@ -143,6 +145,8 @@ void AutomixerAudioProcessor::processBlock(juce::AudioBuffer<float>& buffer, juc
     - When you hit play, it’s off (it doesn’t null):
       - Not worry about it?
       - Fade-in?
+    - Studio One plugins that work at the summing stage.
+    - N-to-N routing in Audio Units
     */
     
     for (auto channel = 1; channel < outputChannelsCount; channel++)
