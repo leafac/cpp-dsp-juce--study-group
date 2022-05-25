@@ -1,5 +1,14 @@
 # 2022-05-11
 
+[**Meeting**](https://youtu.be/iVcsnzVHzlg)
+
+- Cwits: Implemented the timing of MIDI events using a combination of precise sleep with `nanosleep()` & a bit of busy wait. For next meeting will try to fix a crash that’s probably caused by a race condition.
+- Fotis: <https://github.com/DISTRHO/Cardinal> & <https://aria.dog/barks/why-i-will-never-create-modules-for-vcv-rack-anymore/>. For next meeting will study about sound engines combining sampling & synthesis.
+- Leandro: Reading **A Tour of C++**, by Bjarne Stroustrup. Recommended for experienced programmers with a foot in programming-language theory who want to get up to speed in C++ relatively fast. For next meeting will finish reading the book and start applying the knowledge to the Automixer.
+- Bo: Following along The Audio Programmer’s JUCE tutorials. Got stuck because of a couple syntax issues & a misnamed class, but back on track now. We talked about classes, inheritance, and namespaces. For next meeting will continue with the tutorials.
+
+# 2022-05-11
+
 [**Meeting**](https://youtu.be/flgKOgGaDtQ)
 
 - Bo:
