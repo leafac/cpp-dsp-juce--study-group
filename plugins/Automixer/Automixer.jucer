@@ -3,10 +3,9 @@
 <JUCERPROJECT id="udVx8q" name="Automixer" projectType="audioplug" useAppConfig="0"
               addUsingNamespaceToJuceHeader="0" jucerFormatVersion="1" companyName="Leandro Facchinetti"
               companyWebsite="https://leafac.com" companyEmail="automixer@leafac.com"
-              displaySplashScreen="1" bundleIdentifier="com.leafac.automixer"
-              pluginFormats="buildAU,buildVST3" pluginManufacturerCode="Lean"
-              pluginCode="Auto" pluginAUMainType="'aumx'" pluginVST3Category="Up-Downmix"
-              cppLanguageStandard="latest">
+              bundleIdentifier="com.leafac.automixer" pluginFormats="buildAU,buildVST3"
+              pluginManufacturerCode="Lean" pluginCode="Auto" pluginAUMainType="'aumx'"
+              pluginVST3Category="Up-Downmix" cppLanguageStandard="latest">
   <MAINGROUP id="cjqqkB" name="Automixer">
     <GROUP id="{E6994975-0EAC-0EF6-5B8B-EBF95C40C1FF}" name="Source">
       <FILE id="jpcgog" name="PluginProcessor.cpp" compile="1" resource="0"
