@@ -1,3 +1,14 @@
+# 2022-06-08
+
+[**Meeting**](https://youtu.be/Jgv-xCjKJOI)
+
+- Fotis talked about instruments that combine synthesis & sampling.
+  - <https://github.com/munt/munt>
+  - <https://github.com/mpue/Synthlab/tree/master>
+- Leandro is still reading his Tour of C++ book.
+- Bo showed us a prototype of his Fudge Filter in JSFX and we converted it to C++ & JUCE.
+  - <https://www.allrecipes.com/recipe/261099/fudge-muffins/>
+
 # 2022-05-11
 
 [**Meeting**](https://youtu.be/iVcsnzVHzlg)
