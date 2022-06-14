@@ -5,8 +5,8 @@
 - Fotis talked about instruments that combine synthesis & sampling.
   - <https://github.com/munt/munt>
   - <https://github.com/mpue/Synthlab/tree/master>
-  - <https://lbezone.ust.hk/pdfviewer/web/viewer.php?file=aHR0cHM6Ly9sYmV6b25lLnVzdC5oay9vYmovMS9vL2I1MTkzOTMvYjUxOTM5My5wZGY=#page=1>
-  - <https://lbezone.ust.hk/pdfviewer/web/viewer.php?file=aHR0cHM6Ly9sYmV6b25lLnVzdC5oay9vYmovMS9vL2I1MDAwMjgvYjUwMDAyOC5wZGY=#page=1>
+  - <https://lbezone.ust.hk/obj/1/o/b500028/b500028.pdf>
+  - <https://lbezone.ust.hk/obj/1/o/b519393/b519393.pdf>
   - <http://repository.ust.hk/ir/bitstream/1783.1-1410/1/icmc02.pdf>
 - Leandro is still reading his Tour of C++ book.
 - Bo showed us a prototype of his Fudge Filter in JSFX and we converted it to C++ & JUCE.
