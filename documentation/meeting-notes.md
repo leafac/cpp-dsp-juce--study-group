@@ -1,3 +1,18 @@
+# 2022-07-07
+
+[**Meeting**](https://youtu.be/h-7Wm30yShM)
+
+Leandro talked about his first experiences with electronics: from basic components and what they do up to an overdrive pedal. Shout out to https://www.youtube.com/user/aritosuzuki !
+
+Alessandro is working on software for transcribing music. In particular, he’s implementing an algorithm to slow playback and help you transcribe fast parts.
+
+Fotis talked about spacial audio and showed us his drums plugin from the past.
+
+---
+
+- <https://github.com/essej/paulxstretch>
+- **A Review of Time-Scale Modification of Music Signals**, by Jonathan Driedger, and Meinard Müller.
+
 # 2022-06-22
 
 [**Meeting**](https://youtu.be/i5Oe4cN6Rzc)
