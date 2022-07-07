@@ -4,7 +4,7 @@
 
 Leandro talked about his first experiences with electronics: from basic components and what they do up to an overdrive pedal. Shout out to https://www.youtube.com/user/aritosuzuki !
 
-Alessandro is working on software for transcribing music. In particular, he’s implementing an algorithm to slow playback and help you transcribe fast parts.
+Alessandro is working on software for transcribing music. In particular, he’s implementing an algorithm to slow playback and help you transcribe fast parts. See more at <https://github.com/Thronplunder/transcriber>.
 
 Fotis talked about spacial audio and showed us his drums plugin from the past.
 
