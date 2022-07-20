@@ -13,11 +13,6 @@ AutomixerAudioProcessor::~AutomixerAudioProcessor()
 {
 }
 
-juce::AudioProcessor* JUCE_CALLTYPE createPluginFilter()
-{
-    return new AutomixerAudioProcessor();
-}
-
 const juce::String AutomixerAudioProcessor::getName() const
 {
     return JucePlugin_Name;
@@ -25,11 +20,7 @@ const juce::String AutomixerAudioProcessor::getName() const
 
 bool AutomixerAudioProcessor::isBusesLayoutSupported(const BusesLayout& layouts) const
 {
-    return layouts.getMainInputChannelSet() == layouts.getMainOutputChannelSet() &&
-    (
-     layouts.getMainOutputChannelSet() == juce::AudioChannelSet::mono() ||
-     layouts.getMainOutputChannelSet() == juce::AudioChannelSet::stereo()
-     );
+    return true;
 }
 
 double AutomixerAudioProcessor::getTailLengthSeconds() const
@@ -85,7 +76,7 @@ void AutomixerAudioProcessor::setStateInformation(const void* data, int sizeInBy
 
 bool AutomixerAudioProcessor::hasEditor() const
 {
-    return false;
+    return true;
 }
 
 juce::AudioProcessorEditor* AutomixerAudioProcessor::createEditor()
@@ -104,12 +95,10 @@ void AutomixerAudioProcessor::releaseResources()
 {
 }
 
+// TODO: Could and should I be using doubles instead of floats?
 void AutomixerAudioProcessor::processBlock(juce::AudioBuffer<float>& buffer, juce::MidiBuffer& midiMessages)
 {
     juce::ScopedNoDenormals noDenormals;
-    
-    auto inputChannelsCount = getTotalNumInputChannels();
-    auto outputChannelsCount = getTotalNumOutputChannels();
     
     auto bufferWritePointer = buffer.getWritePointer(0);
     
@@ -120,7 +109,7 @@ void AutomixerAudioProcessor::processBlock(juce::AudioBuffer<float>& buffer, juc
     // 4. It still shows up as “yourcompany”
     // 5. It’s annoying having to restart REAPER on every build.
     // 6. There’s no way to tell that the RMS computation is actually working.
-
+    
     // Maybe add options to flip polarity and rotate phase before sending the audio?
     
     // Look at Airwindow’s console plugins for the inter-plugin communication.
@@ -129,7 +118,7 @@ void AutomixerAudioProcessor::processBlock(juce::AudioBuffer<float>& buffer, juc
     for (int sampleIndex = 0; sampleIndex < buffer.getNumSamples(); sampleIndex++)
     {
         float rmsChannelsSquares = 0;
-        for (int channel = 0; channel < inputChannelsCount; channel++)
+        for (int channel = 0; channel < getTotalNumInputChannels(); channel++)
             rmsChannelsSquares += pow(buffer.getSample(channel, sampleIndex), 2);
         rmsSquaresSum += rmsChannelsSquares - rmsSquares[rmsSquaresIndex];
         // FIXME: if (rmsSquaresSum < 0.00001) rmsSquaresSum = 0;
@@ -137,18 +126,22 @@ void AutomixerAudioProcessor::processBlock(juce::AudioBuffer<float>& buffer, juc
         rmsSquaresIndex++;
         if (rmsSquaresIndex == 48000) rmsSquaresIndex = 0;
         float rms = sqrt(rmsSquaresSum / 48000);
-        //bufferWritePointer[sampleIndex] = 0.5;
         bufferWritePointer[sampleIndex] = rms;
     }
-
-    /*
-    - When you hit play, it’s off (it doesn’t null):
-      - Not worry about it?
-      - Fade-in?
-    - Studio One plugins that work at the summing stage.
-    - N-to-N routing in Audio Units
-    */
     
-    for (auto channel = 1; channel < outputChannelsCount; channel++)
+    /*
+     - When you hit play, it’s off (it doesn’t null):
+     - Not worry about it?
+     - Fade-in?
+     - Studio One plugins that work at the summing stage.
+     - N-to-N routing in Audio Units
+     */
+    
+    for (auto channel = 1; channel < getTotalNumOutputChannels(); channel++)
         buffer.clear(channel, 0, buffer.getNumSamples());
+}
+
+juce::AudioProcessor* JUCE_CALLTYPE createPluginFilter()
+{
+    return new AutomixerAudioProcessor();
 }

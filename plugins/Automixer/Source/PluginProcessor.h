@@ -10,9 +10,7 @@ public:
     
     const juce::String getName() const override;
     
-#ifndef JucePlugin_PreferredChannelConfigurations
     bool isBusesLayoutSupported(const BusesLayout& layouts) const override;
-#endif
     
     double getTailLengthSeconds() const override;
     
