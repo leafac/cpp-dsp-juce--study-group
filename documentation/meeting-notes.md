@@ -6,7 +6,7 @@ Leandro talked about his first experiences with electronics: from basic componen
 
 Alessandro is working on software for transcribing music. In particular, he’s implementing an algorithm to slow playback and help you transcribe fast parts. See more at <https://github.com/Thronplunder/transcriber>.
 
-Fotis talked about spacial audio and showed us his drums plugin from the past.
+Fotis talked about spatial audio and showed us his drums plugin from the past.
 
 ---
 
