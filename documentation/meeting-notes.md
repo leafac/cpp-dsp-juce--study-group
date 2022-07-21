@@ -1,3 +1,18 @@
+# 2022-07-20
+
+[**Meeting**](https://youtu.be/y23owjOtT70)
+
+Cwits talked about adding audio inputs to his Raspberry Pi project by getting an Analog-to-Digital Converter (ADC). We also discussed the issues he’s been having with timing events.
+
+Fotis talked about a C++ book he’s reading. We also discussed some issue he had trying to compile a JUCE port of an Airwindows plugin.
+
+Leandro talked about communication between plugin instances using global variables, which is necessary for the Automixer. We also looked at Room EQ Wizard to measure & analyze electronics circuits.
+
+---
+
+- <https://github.com/deadlab-plugins/bluelab-plugins>
+- <https://github.com/MeijisIrlnd/airwindows>
+
 # 2022-07-07
 
 [**Meeting**](https://youtu.be/h-7Wm30yShM)
