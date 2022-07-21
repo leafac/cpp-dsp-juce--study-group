@@ -4,7 +4,7 @@
 
 Cwits talked about adding audio inputs to his Raspberry Pi project by getting an Analog-to-Digital Converter (ADC). We also discussed the issues he’s been having with timing events.
 
-Fotis talked about a C++ book he’s reading called "Absolute C++" (4th Edition) by Walter Savitch. We also discussed some issue he had trying to compile a JUCE port of an Airwindows plugin.
+Fotis talked about a C++ book he’s reading: **Absolute C++**, by Walter Savitch. We also discussed some issue he had trying to compile a JUCE port of an Airwindows plugin.
 
 Leandro talked about communication between plugin instances using global variables, which is necessary for the Automixer. We also looked at Room EQ Wizard to measure & analyze electronics circuits.
 
@@ -12,7 +12,6 @@ Leandro talked about communication between plugin instances using global variabl
 
 - <https://github.com/deadlab-plugins/bluelab-plugins>
 - <https://github.com/MeijisIrlnd/airwindows>
-- <https://www.amazon.com/Absolute-C-4th-Walter-Savitch/dp/0136083811>
 
 # 2022-07-07
 
