@@ -1,3 +1,26 @@
+# 2022-08-03
+
+[**Meeting**](https://youtu.be/NtdsA5x5-Xc)
+
+Leandro is prototyping the Automixer in JSFX and learning about electronics. Shout out to:
+
+- [Moritz Klein](https://www.youtube.com/c/MoritzKlein0)
+- [LOOK MUM NO COMPUTER](https://www.youtube.com/c/LOOKMUMNOCOMPUTER)
+- [Music From Outer Space](http://musicfromouterspace.com/)
+
+Cwits has fixed his MIDI-recording timing issues by putting MIDI processing in the same loop as audio processing.
+
+- https://github.com/Tracktion/tracktion_engine
+- https://www.qtractor.org/
+- https://lmms.io/
+- https://openmpt.org/
+
+Fotis translated an Airwindows plugin to JSFX with the help of [Mark Heath’s tutorial](https://www.youtube.com/watch?v=fs1SG5L39_Q).
+
+Bo installed iPlug2 and built an example plugin.
+
+- https://github.com/iPlug2/iPlug2/wiki/02_Getting_started_windows
+
 # 2022-07-20
 
 [**Meeting**](https://youtu.be/y23owjOtT70)
