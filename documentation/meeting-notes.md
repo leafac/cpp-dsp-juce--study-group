@@ -1,3 +1,23 @@
+# 2022-08-17
+
+[**Meeting**](https://youtu.be/Pwbs9yiZHXo)
+
+**Leandro** is still working on the JSFX Automixer & learning about electronics.
+
+- https://www.ericasynths.lv/shop/ (Check the manuals for the EDU DIY modules!)
+
+**Bo** got the iPlug installation issues sorted out and we coded a first-order filter together.
+
+**Fotis** got HISE compiled.
+
+- http://www.hise.audio/
+- https://www.patreon.com/posts/building-hise-on-28322675
+- https://github.com/christophhart/HISE
+- Make sure to unpack the SDKs using the password you can find on the forum!
+- https://www.airwindows.com/balanced/
+
+**Cwits** fixed the timing issues in the metronome.
+
 # 2022-08-03
 
 [**Meeting**](https://youtu.be/NtdsA5x5-Xc)
