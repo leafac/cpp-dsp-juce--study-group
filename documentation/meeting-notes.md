@@ -1,3 +1,18 @@
+# 2022-08-31
+
+[**Meeting**](https://youtu.be/V55b8sfSY2k)
+
+**Cwits:** Implemented a step sequencer and is considering turning the project into a product.
+
+**Fotis:** Using the development version of HISE to build an interface. Finishing his first commercial sample pack.
+
+- https://www.youtube.com/watch?v=2C4psWqleRs
+- https://www.youtube.com/watch?v=cIQ9IXSUzuM
+
+**Bo:** Implemented a new concept for a filter with a combination of averaging. Running into issue with the build system perhaps caused by having updated Visual Studio.
+
+**Leandro:** Working on Automixer for Video, which is JSFX-only. Learning about simple circuits such as the Atari Punk Console & an analog VU meter.
+
 # 2022-08-17
 
 [**Meeting**](https://youtu.be/Pwbs9yiZHXo)
