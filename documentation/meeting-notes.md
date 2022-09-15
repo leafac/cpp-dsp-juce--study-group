@@ -1,3 +1,37 @@
+# 2022-09-14
+
+[**Meeting**](https://youtu.be/ajlzmauNYDc)
+
+**Cwits:** Implement ways to manipulate samples, for example, trimming the edges.
+
+**Fotis:** Developed an user interface for a sampler using HISE. Ran into an issue with the onscreen keyboard, which we fixed by removing the onscreen keyboard 🙃
+
+**Leandro:** Did a reverse-avalanche oscillator in a toy for his son.
+
+- https://www.youtube.com/watch?v=WjrJeUBjw5g&lc=Ugwfq6USi3crwV5tI5t4AaABAg (see Leandro’s comment for some more technical details):
+
+  > I just spent a couple hours playing around with this circuit. Here’s what I learned:
+  >
+  > 1. The trick that made it work for me was to shine a bright light close to the LDR. Like Sam did in the video, I used my phone light.
+  >
+  > 2. If you just want to play around with the circuit, you can use a breadboard.
+  >
+  > 3. I tried a couple transistors with the middle leg still on, even with the middle leg connected to the breadboard. It worked 🤷
+  >
+  > 4. The type of LDR will change the range. I found that the GL5539 worked the best from me, after having tried the GL5506, GL5516, GL5528, GL5537, and the GL5549. But they all worked to some extent.
+  >
+  > 5. Different kinds of transistors gave me different frequencies. With the 2N3904 I could only produce annoyingly high-pitched sounds, no matter how big the capacitor. With the BC547 I got sounds similar to Sam’s. The BC337 also worked, though less pleasing. And the BC517 was my favorite. Fun stuff. I didn’t even need the phone light for the oscillation to start with all of these, except for the 2N3904. If playing around with different transistors remember to swap the legs around, because the pinouts are different.
+  >
+  > 6. It won’t take just a couple of minutes to put together 😉
+  >
+  > Overall, really enjoyable experiment. Thanks, Sam!
+
+- https://www.youtube.com/watch?v=zCTLeNxge54
+
+- https://www.youtube.com/c/airwindows/search?query=diy
+
+- https://twitter.com/matttytel/status/1483878590089506828
+
 # 2022-08-31
 
 [**Meeting**](https://youtu.be/V55b8sfSY2k)
