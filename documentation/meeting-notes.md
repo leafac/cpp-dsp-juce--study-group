@@ -1,3 +1,20 @@
+# 2022-09-28
+
+[**Meeting**](https://youtu.be/1DvZ1KsFqfE)
+
+**Leandro:** Still working on the Automixer in JSFX. Learning about electronics with a new oscilloscope. Wondering what amount of noise one is supposed to expect from an oscilloscope, and if 1x probes may help…
+
+**Bo:** Still running into issues trying to build plugins with iPlug.
+
+- https://github.com/iPlug2/iPlug2/discussions/872
+- https://www.youtube.com/watch?v=Mo0Oco3Vimo&t=2231s
+
+**Fotis:** Developed a Rompler with controls for attack, release, reverb, and so forth.
+
+- https://github.com/SlavaCat118/Vinetics
+
+**Cwits:** Refactored the code to represent menus with data structures instead of blocks of code. Started experimenting with a microcontroller attached to the Raspberry Pi.
+
 # 2022-09-14
 
 [**Meeting**](https://youtu.be/ajlzmauNYDc)
