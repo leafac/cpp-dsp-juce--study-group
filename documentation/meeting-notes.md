@@ -1,5 +1,17 @@
 # 2022-09-28
 
+[**Meeting**](https://youtu.be/lpF3DHCvmTc)
+
+Fotis talked about doing a hybrid synth (sample + synth) in HISE.
+
+Leandro found that 1x probes don’t help with noise all that much. And he fixed his microwave oven with his newly acquired knowledge in electronics.
+
+Cwits mentioned that using the microcontroller like discussed last meeting didn’t work. He’s now waiting for parts for an ADC.
+
+Bo wrote a exponential-moving-average filter in JSFX using functions.
+
+# 2022-09-28
+
 [**Meeting**](https://youtu.be/1DvZ1KsFqfE)
 
 **Leandro:** Still working on the Automixer in JSFX. Learning about electronics with a new oscilloscope. Wondering what amount of noise one is supposed to expect from an oscilloscope, and if 1x probes may help…
