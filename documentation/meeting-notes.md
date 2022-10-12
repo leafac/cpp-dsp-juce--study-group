@@ -1,27 +1,14 @@
-# 2022-09-28
+# 2022-10-12
 
 [**Meeting**](https://youtu.be/lpF3DHCvmTc)
 
-**Fotis** talked about doing a hybrid synth (sample + synth) in HISE.
+Fotis talked about doing a hybrid synth (sample + synth) in HISE.
 
-- https://kimurataro.gumroad.com/l/freewt?layout=profile
-- https://github.com/sgossner/VCSL
-- https://forum.hise.audio/topic/5747/wavetable-synth-tutorial-how-i-do-it
-- https://forum.hise.audio/topic/5714/wavetable-export-issue
-- https://github.com/topics/hise
+Leandro found that 1x probes don’t help with noise all that much. And he fixed his microwave oven with his newly acquired knowledge in electronics.
 
-**Leandro** found that 1x probes don’t help with noise all that much. And he fixed his microwave oven with his newly acquired knowledge in electronics.
+Cwits mentioned that using the microcontroller like discussed last meeting didn’t work. He’s now waiting for parts for an ADC.
 
-- https://github.com/elkayem/midi2cv
-
-**Cwits** mentioned that using the microcontroller like discussed last meeting didn’t work. He’s now waiting for parts for an ADC.
-
-- https://www.schiit.com/home
-- https://www.hifiberry.com
-
-**Bo** wrote a exponential-moving-average filter in JSFX using functions.
-
-- https://www.youtube.com/watch?v=AIOAiDCWHUI
+Bo wrote a exponential-moving-average filter in JSFX using functions.
 
 # 2022-09-28
 
