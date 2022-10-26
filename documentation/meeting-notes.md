@@ -1,3 +1,13 @@
+# 2022-10-26
+
+[**Meeting**](https://youtu.be/P9YqR8BSWEQ)
+
+Fotis wrote some code in HISE to do a XY pad.
+
+Leandro is still procrastinating 😅
+
+Cwits worked on fade-in/fade-out curves, routing between samplers, and ran into an issue with playback rates below 1.
+
 # 2022-10-12
 
 [**Meeting**](https://youtu.be/lpF3DHCvmTc)
