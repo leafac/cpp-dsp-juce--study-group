@@ -1,3 +1,15 @@
+# 2022-11-09
+
+[**Meeting**](https://youtu.be/eQsPan7T9y8)
+
+Leandro opened Xcode and closed it back down 🤷
+
+Fotis looked into HISE & Faust integration.
+
+Bo did some distortion & filters in JSFX.
+
+Cwits did some light effects in Ableton Push and showed us Ableton’s MIDI documentation.
+
 # 2022-10-26
 
 [**Meeting**](https://youtu.be/P9YqR8BSWEQ)
