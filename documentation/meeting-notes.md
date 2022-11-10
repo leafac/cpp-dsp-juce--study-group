@@ -4,7 +4,13 @@
 
 Leandro opened Xcode and closed it back down 🤷
 
+- https://www.youtube.com/watch?v=vvBl3YUBUyY
+- https://www.youtube.com/watch?v=p60y3Y3dE3M
+- https://www.arturia.com/products/software-instruments/dx7-v/overview
+
 Fotis looked into HISE & Faust integration.
+
+- https://resonant-bytes.de/blog/gsoc-final-submission/
 
 Bo did some distortion & filters in JSFX.
 
