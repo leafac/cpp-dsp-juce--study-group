@@ -1,3 +1,17 @@
+# 2022-11-23
+
+[**Meeting**](https://youtu.be/40RMsFvtwg4)
+
+Leandro learned more about the noise issues in his oscilloscope. He also learned a thing or two about the anti-aliasing filters in the digital-to-analog converters of his iPad & Thinkpad.
+
+Fotis learned that his HISE plugin was actually working to begin with. And he dove deeper into FAUST.
+
+And here’s the link of Fotis collaborating with Ian Shepherd: https://www.youtube.com/watch?v=n1Yfl6KGRk8
+
+Cwits is pondering what to work on next.
+
+Bo worked on his compressor & some waveshaping distortions.
+
 # 2022-11-09
 
 [**Meeting**](https://youtu.be/eQsPan7T9y8)
