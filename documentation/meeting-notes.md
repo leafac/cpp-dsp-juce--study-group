@@ -1,3 +1,15 @@
+# 2022-12-07
+
+[**Meeting**](https://youtu.be/t_Oyd8kNG9M)
+
+Bo showed us two of his JSFX projects: An extreme clipper to win the loudness war, and a compressor. We talked about look-up tables and fixed an issue that was causing differences between the left and right channels.
+
+Leandro is getting his feet wet in iPlug. In particular, he’s interested in using a web view to do the user interface of a plugin in HTML/CSS/JavaScript.
+
+Fotis showed a couple effects using FAUST in HISE. And his New Year’s resolution is to migrate a bunch of synthesizers from FlowStone to C++.
+
+We’ll be back 2023-01-04.
+
 # 2022-11-23
 
 [**Meeting**](https://youtu.be/40RMsFvtwg4)
