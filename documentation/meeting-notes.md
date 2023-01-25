@@ -1,3 +1,13 @@
+# 2023-01-25
+
+[**Meeting**](https://youtu.be/xoO6zE2lQ34)
+
+Bo is working on his compressor, split distortion, and playing with ChatGPT.
+
+Fotis tweaked a script to explode media streams.
+
+Leandro setup Visual Studio Code for C++ and played around with a library to do HTTP servers in C++.
+
 # 2022-12-07
 
 [**Meeting**](https://youtu.be/t_Oyd8kNG9M)
