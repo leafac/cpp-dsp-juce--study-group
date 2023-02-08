@@ -1,3 +1,11 @@
+# 2023-02-08
+
+[**Meeting**](https://youtube.com/live/9LDCPr40XQI)
+
+- Fotis worked on some scripts for using ffmpeg from REAPER to manage dialog normalization in AC3 files.
+
+- Cwits is waiting for a microcontroller to manage the clock on his project (the first one burned 😬) and playing with Qt for the user interface on a display separate from the Ableton Push display.
+
 # 2023-01-25
 
 [**Meeting**](https://youtu.be/xoO6zE2lQ34)
