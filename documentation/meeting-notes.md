@@ -1,3 +1,23 @@
+# 2023-02-22
+
+[**Meeting**](https://youtube.com/live/AKFi1jfnIHQ)
+
+Cwits is pondering whether to do a user interface in Qt in a monolithic way, or separate the backend from the frontend.
+
+Fotis created a synthesizer with HISE that is reminiscent of a Game Boy.
+
+- https://github.com/edkashinsky/reaper-reableton-scripts/blob/master/reaper-vkbmap.txt
+- https://keypleezer.com/sfz-to-hise-converter/
+
+Bo created a stereo widener and showed us how it works in a goniometer.
+
+- https://www.kvraudio.com/product/true-mid-side---mid-side-channel-extractor-by-raising-jake-studios
+
+Leandro watched some videos by The Cherno and read “YIN, a fundamental frequency estimator for speech and music”.
+
+- https://thecherno.com
+- http://audition.ens.fr/adc/pdf/2002_JASA_YIN.pdf
+
 # 2023-02-08
 
 [**Meeting**](https://youtube.com/live/9LDCPr40XQI)
