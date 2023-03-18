@@ -1,3 +1,13 @@
+# 2023-03-15
+
+[**Meeting**](https://youtube.com/live/AB9z53q7-fI)
+
+Leandro is thinking of doing some Project Euler exercises in C++: https://projecteuler.net/
+
+Bo worked on his compressor, widener, and novel equalizers.
+
+Fotis compiled his Wild instrument, and we wrote some JSFX for slew rates together.
+
 # 2023-02-22
 
 [**Meeting**](https://youtube.com/live/AKFi1jfnIHQ)
@@ -28,7 +38,7 @@ Leandro watched some videos by The Cherno and read “YIN, a fundamental frequen
 
 # 2023-01-25
 
-[**Meeting**](https://youtu.be/xoO6zE2lQ34)
+[**Meeting**](https://youtube.com/live/xoO6zE2lQ34)
 
 Bo is working on his compressor, split distortion, and playing with ChatGPT.
 
@@ -38,7 +48,7 @@ Leandro setup Visual Studio Code for C++ and played around with a library to do 
 
 # 2022-12-07
 
-[**Meeting**](https://youtu.be/t_Oyd8kNG9M)
+[**Meeting**](https://youtube.com/live/t_Oyd8kNG9M)
 
 Bo showed us two of his JSFX projects: An extreme clipper to win the loudness war, and a compressor. We talked about look-up tables and fixed an issue that was causing differences between the left and right channels.
 
@@ -50,7 +60,7 @@ We’ll be back 2023-01-04.
 
 # 2022-11-23
 
-[**Meeting**](https://youtu.be/40RMsFvtwg4)
+[**Meeting**](https://youtube.com/live/40RMsFvtwg4)
 
 Leandro learned more about the noise issues in his oscilloscope. He also learned a thing or two about the anti-aliasing filters in the digital-to-analog converters of his iPad & Thinkpad.
 
@@ -64,7 +74,7 @@ Bo worked on his compressor & some waveshaping distortions.
 
 # 2022-11-09
 
-[**Meeting**](https://youtu.be/eQsPan7T9y8)
+[**Meeting**](https://youtube.com/live/eQsPan7T9y8)
 
 Leandro opened Xcode and closed it back down 🤷
 
@@ -82,7 +92,7 @@ Cwits did some light effects in Ableton Push and showed us Ableton’s MIDI docu
 
 # 2022-10-26
 
-[**Meeting**](https://youtu.be/P9YqR8BSWEQ)
+[**Meeting**](https://youtube.com/live/P9YqR8BSWEQ)
 
 Fotis wrote some code in HISE to do a XY pad.
 
@@ -92,7 +102,7 @@ Cwits worked on fade-in/fade-out curves, routing between samplers, and ran into 
 
 # 2022-10-12
 
-[**Meeting**](https://youtu.be/lpF3DHCvmTc)
+[**Meeting**](https://youtube.com/live/lpF3DHCvmTc)
 
 **Fotis** talked about doing a hybrid synth (sample + synth) in HISE.
 
@@ -117,7 +127,7 @@ Cwits worked on fade-in/fade-out curves, routing between samplers, and ran into 
 
 # 2022-09-28
 
-[**Meeting**](https://youtu.be/1DvZ1KsFqfE)
+[**Meeting**](https://youtube.com/live/1DvZ1KsFqfE)
 
 **Leandro:** Still working on the Automixer in JSFX. Learning about electronics with a new oscilloscope. Wondering what amount of noise one is supposed to expect from an oscilloscope, and if 1x probes may help…
 
@@ -134,7 +144,7 @@ Cwits worked on fade-in/fade-out curves, routing between samplers, and ran into 
 
 # 2022-09-14
 
-[**Meeting**](https://youtu.be/ajlzmauNYDc)
+[**Meeting**](https://youtube.com/live/ajlzmauNYDc)
 
 **Cwits:** Implement ways to manipulate samples, for example, trimming the edges.
 
@@ -168,7 +178,7 @@ Cwits worked on fade-in/fade-out curves, routing between samplers, and ran into 
 
 # 2022-08-31
 
-[**Meeting**](https://youtu.be/V55b8sfSY2k)
+[**Meeting**](https://youtube.com/live/V55b8sfSY2k)
 
 **Cwits:** Implemented a step sequencer and is considering turning the project into a product.
 
@@ -183,7 +193,7 @@ Cwits worked on fade-in/fade-out curves, routing between samplers, and ran into 
 
 # 2022-08-17
 
-[**Meeting**](https://youtu.be/Pwbs9yiZHXo)
+[**Meeting**](https://youtube.com/live/Pwbs9yiZHXo)
 
 **Leandro** is still working on the JSFX Automixer & learning about electronics.
 
@@ -203,7 +213,7 @@ Cwits worked on fade-in/fade-out curves, routing between samplers, and ran into 
 
 # 2022-08-03
 
-[**Meeting**](https://youtu.be/NtdsA5x5-Xc)
+[**Meeting**](https://youtube.com/live/NtdsA5x5-Xc)
 
 Leandro is prototyping the Automixer in JSFX and learning about electronics. Shout out to:
 
@@ -226,7 +236,7 @@ Bo installed iPlug2 and built an example plugin.
 
 # 2022-07-20
 
-[**Meeting**](https://youtu.be/y23owjOtT70)
+[**Meeting**](https://youtube.com/live/y23owjOtT70)
 
 Cwits talked about adding audio inputs to his Raspberry Pi project by getting an Analog-to-Digital Converter (ADC). We also discussed the issues he’s been having with timing events.
 
@@ -241,7 +251,7 @@ Leandro talked about communication between plugin instances using global variabl
 
 # 2022-07-07
 
-[**Meeting**](https://youtu.be/h-7Wm30yShM)
+[**Meeting**](https://youtube.com/live/h-7Wm30yShM)
 
 Leandro talked about his first experiences with electronics: from basic components and what they do up to an overdrive pedal. Shout out to https://www.youtube.com/user/aritosuzuki !
 
@@ -256,7 +266,7 @@ Fotis talked about spatial audio and showed us his drums plugin from the past.
 
 # 2022-06-22
 
-[**Meeting**](https://youtu.be/i5Oe4cN6Rzc)
+[**Meeting**](https://youtube.com/live/i5Oe4cN6Rzc)
 
 - Fotis had a plugin working iPlug2. We discussed the tradeoffs when compared to JUCE, looked at the boilerplate generated by iPlug2, and talked about lambdas.
 - Leandro finished reading A Tour of C++. Next he’ll use this knowledge to create a side-channel to communicate streams of audio between instances of his Automixer.
@@ -284,7 +294,7 @@ void Fudge____AudioEditor::sliderValueChanged(juce::Slider* slider) override
 
 # 2022-06-08
 
-[**Meeting**](https://youtu.be/Jgv-xCjKJOI)
+[**Meeting**](https://youtube.com/live/Jgv-xCjKJOI)
 
 - Fotis talked about instruments that combine synthesis & sampling.
   - <https://github.com/munt/munt>
@@ -298,7 +308,7 @@ void Fudge____AudioEditor::sliderValueChanged(juce::Slider* slider) override
 
 # 2022-05-11
 
-[**Meeting**](https://youtu.be/iVcsnzVHzlg)
+[**Meeting**](https://youtube.com/live/iVcsnzVHzlg)
 
 - Cwits: Implemented the timing of MIDI events using a combination of precise sleep with `nanosleep()` & a bit of busy wait. For next meeting will try to fix a crash that’s probably caused by a race condition.
 - Fotis: <https://github.com/DISTRHO/Cardinal> & <https://aria.dog/barks/why-i-will-never-create-modules-for-vcv-rack-anymore/>. For next meeting will study about sound engines combining sampling & synthesis.
@@ -307,7 +317,7 @@ void Fudge____AudioEditor::sliderValueChanged(juce::Slider* slider) override
 
 # 2022-05-11
 
-[**Meeting**](https://youtu.be/flgKOgGaDtQ)
+[**Meeting**](https://youtube.com/live/flgKOgGaDtQ)
 
 - Bo:
   - Studying JUCE & C++.
@@ -336,7 +346,7 @@ void Fudge____AudioEditor::sliderValueChanged(juce::Slider* slider) override
 
 # 2022-04-26
 
-[**Meeting**](https://youtu.be/p1D43DKp1ns)
+[**Meeting**](https://youtube.com/live/p1D43DKp1ns)
 
 - Cwits created a piano roll for the Push. For next meeting he’ll look into how to record MIDI and deal with timing issues.
 - Fotis designed 3 plugins that have to do with synthesis and synesthesia. For next meeting he’ll look into a reverb by BABY Audio & reveal some mysterious plugin in KVR that he’s been talking to the developer about.
@@ -350,7 +360,7 @@ void Fudge____AudioEditor::sliderValueChanged(juce::Slider* slider) override
 
 # 2022-04-13
 
-[**Meeting**](https://youtu.be/ISaeg_YJ4R4)
+[**Meeting**](https://youtube.com/live/ISaeg_YJ4R4)
 
 - Leandro investigated issues related to FX chains with different latency before sending audio to the automixer.
 - Cwits developed a pitch shifter (http://blogs.zynaptiq.com/bernsee/pitch-shifting-using-the-ft/ / https://www.zynaptiq.com/pitchmap/), a tone generator, a mechanism to manage voices, and the beginnings of MIDI processing (http://www.music.mcgill.ca/~ich/classes/mumt306/StandardMIDIfileformat.html).
@@ -364,7 +374,7 @@ void Fudge____AudioEditor::sliderValueChanged(juce::Slider* slider) override
 
 # 2022-03-29
 
-[**Meeting**](https://youtu.be/D3OMyljNh8o)
+[**Meeting**](https://youtube.com/live/D3OMyljNh8o)
 
 - Unusual meeting because some people were busy and we wanted to catch https://www.youtube.com/watch?v=gnbSMmTiDxk
 - Leandro’s progress:
@@ -377,7 +387,7 @@ void Fudge____AudioEditor::sliderValueChanged(juce::Slider* slider) override
 
 # 2022-03-15
 
-[**Meeting**](https://youtu.be/Sq_XXdnNV8c)
+[**Meeting**](https://youtube.com/live/Sq_XXdnNV8c)
 
 - Progress:
   - Cwits made a whole engine capable of loading audio-processing modules into a Raspberry Pi and controlling them via an Ableton Push.
@@ -398,7 +408,7 @@ void Fudge____AudioEditor::sliderValueChanged(juce::Slider* slider) override
 
 # 2022-03-02
 
-[**Meeting**](https://youtu.be/xagHKQTdMd4)
+[**Meeting**](https://youtube.com/live/xagHKQTdMd4)
 
 - Progress:
   - Fotis followed along some The Audio Programmer tutorials, but got stuck, and we helped him get unstuck. He’ll continue with the tutorials and think about some synth ideas.
@@ -415,7 +425,7 @@ void Fudge____AudioEditor::sliderValueChanged(juce::Slider* slider) override
 
 # 2022-02-15
 
-[**Meeting**](https://youtu.be/v4YRmSR6VC8)
+[**Meeting**](https://youtube.com/live/v4YRmSR6VC8)
 
 - We talked about our goals.
   - **Fotis:** Learn how synthesizers work, for example, what makes a synth from brand X different from brand Y. Explore CLAP.
@@ -451,7 +461,7 @@ void Fudge____AudioEditor::sliderValueChanged(juce::Slider* slider) override
 
 # 2022-02-01
 
-[**Meeting**](https://youtu.be/FutGtjbElBA)
+[**Meeting**](https://youtube.com/live/FutGtjbElBA)
 
 We started by introducing ourselves. We have some people who are new to programming, and so people who are authors of C++ programming books(!)
 
