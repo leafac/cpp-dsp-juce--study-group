@@ -1,3 +1,26 @@
+# 2023-03-29
+
+[**Meeting**](https://youtube.com/live/xEjbbzcZ2nA)
+
+Cwits got the microcontrollers he needed and refactored some of his code, but is now taking a bit of a break and considering how to get excited about the project again.
+
+Fotis talked about Rhapsody (a sampler) and Libre Wave (a collection of virtual instruments).
+
+- https://librewave.com/rhapsody/
+- https://librewave.com/
+- https://kotaku.com/the-exceptional-beauty-of-doom-3s-source-code-5975610
+- https://www.youtube.com/watch?v=BHbYPbohorQ
+- https://stash.reaper.fm/browse.php?q=user%3Aashcat_lt&cat=JS-Effects&v=th&o=nd&pp=24
+
+Bo talked about an idea for an octaver that he’s developing with the help of ChatGPT. We developed a concept in JSFX together.
+
+- https://www.kvraudio.com/product/octaver-oc-d2-by-chris-hooker
+- https://en.wikipedia.org/wiki/Verlet_integration
+
+Leandro solved a few Project Euler problems in C++.
+
+- https://projecteuler.net
+
 # 2023-03-15
 
 [**Meeting**](https://youtube.com/live/AB9z53q7-fI)
