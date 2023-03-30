@@ -1,0 +1,15 @@
+@init
+
+flip_polarity = 0;
+
+@sample
+
+spl0_previous <= 0 && spl0 > 0 ||
+spl0_previous >= 0 && spl0 < 0 ? 
+  flip_polarity = !flip_polarity;
+
+spl0_previous = spl0;
+
+spl0 = ((flip_polarity ? -1 : 1) + previous_output) / 2;
+
+previous_output = spl0;
