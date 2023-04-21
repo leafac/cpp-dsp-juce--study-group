@@ -1,3 +1,23 @@
+# 2023-04-20
+
+[**Meeting**](https://youtube.com/live/g5LqpdY2qP0)
+
+Cwits has refactored his code so that it isn’t so deeply nested.
+
+Fotis showed the following projects:
+
+- https://forum.hise.audio/topic/7434/haha-the-easter-bunny-has-delivered/
+- http://www.cerlsoundgroup.org/Loris/
+- https://github.com/christophhart/loris-tools
+- https://github.com/sfzinstruments
+- https://github.com/sdatkinson/NeuralAmpModelerPlugin
+- https://www.gpu.audio/
+- https://forums.cockos.com/showthread.php?t=278176
+
+Bo is considering JUCE again, given that iPlug2 didn’t work for him.
+
+Leandro wrote a brute-force solution to Project Euler problem 3.
+
 # 2023-03-29
 
 [**Meeting**](https://youtube.com/live/xEjbbzcZ2nA)
