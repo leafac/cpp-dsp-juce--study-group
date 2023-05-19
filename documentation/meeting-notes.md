@@ -1,3 +1,20 @@
+# 2023-05-18
+
+[**Meeting**](https://youtube.com/live/RxiG2udBRbc)
+
+Bo is learning about C# & Python for his day job.
+
+Cwits had an issue with burning an expensive microcontroller, but bounced back and soldered a prototype together with a power supply for the Raspberry Pi and other components, and is now figuring out some quirks with the mute pins on some ICs on the damaged Audient audio interface he’s using for parts.
+
+Fotis live-coded in JSFX an adaptation of an Airwindows effect to use a different type of distortion.
+
+- https://www.jthorborg.com/index.html?ipage=signalizer
+- https://forum.vegalab.ru/showthread.php?t=84035
+- http://weavesilk.com/
+- https://github.com/scrtwpns/mixbox
+- https://stephaneginier.com/sculptgl/
+- https://paveldogreat.github.io/WebGL-Fluid-Simulation/
+
 # 2023-04-20
 
 [**Meeting**](https://youtube.com/live/g5LqpdY2qP0)
