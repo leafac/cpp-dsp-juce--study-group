@@ -1,3 +1,13 @@
+# 2023-05-31
+
+[**Meeting**](https://youtube.com/live/BQqloqIe51g)
+
+Cwits got some new components to replace those that had been burned, but something is still wrong: for the time being the output is just white noise. Unfortunately right now he doesn’t have access to the test equipment he needs: an oscilloscope and a good multimeter.
+
+Fotis released a synth: Wild 👏 He also showed some new plugins by Tale. And then together we adapted a fancy JSFX plugin to have a lightweight user interface.
+
+Leandro live-coded the solution to Project Euler problem 4, and we compared to the solutions given by ChatGPT.
+
 # 2023-05-18
 
 [**Meeting**](https://youtube.com/live/RxiG2udBRbc)
