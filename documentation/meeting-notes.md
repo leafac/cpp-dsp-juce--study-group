@@ -8,6 +8,12 @@ Fotis released a synth: Wild 👏 He also showed some new plugins by Tale. And t
 
 Leandro live-coded the solution to Project Euler problem 4, and we compared to the solutions given by ChatGPT.
 
+- https://github.com/fotisandstuff/wild
+- https://en.wikipedia.org/wiki/PC_speaker
+- https://www.metafunction.co.uk/post/all-about-digital-oscillators-part-1-aliasing-foldover
+- https://www.metafunction.co.uk/post/all-about-digital-oscillators-part-2-blits-bleps
+- https://www.taletn.com/reaper/mono_synth/
+
 # 2023-05-18
 
 [**Meeting**](https://youtube.com/live/RxiG2udBRbc)
