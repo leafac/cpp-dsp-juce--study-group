@@ -1,3 +1,13 @@
+# 2023-06-14
+
+[**Meeting**](https://youtube.com/live/Iux_JHtlaYo)
+
+Bo brought us an RBJ all-pass for us to implement, which is part of a widener he’s working on. He also showed us a work-in-progress of a bus summing effect based on wave-shaping and a first-order low-pass filter.
+
+Cwits developed an user interface for a DAW running in the Ableton Push.
+
+Leandro solver Project Euler problem 5 in C++ and compared it to the ChatGPT solution.
+
 # 2023-05-31
 
 [**Meeting**](https://youtube.com/live/BQqloqIe51g)

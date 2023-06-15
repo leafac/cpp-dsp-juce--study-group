@@ -17,3 +17,9 @@ all: 1 2
 
 4--ai--bo: 4--ai--bo.cpp
 	clang++ 4--ai--bo.cpp -o 4--ai--bo
+
+5--humans: 5--humans.cpp
+	clang++ 5--humans.cpp -o 5--humans
+
+5--chat-gpt: 5--chat-gpt.cpp
+	clang++ 5--chat-gpt.cpp -o 5--chat-gpt
