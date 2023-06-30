@@ -23,3 +23,9 @@ all: 1 2
 
 5--chat-gpt: 5--chat-gpt.cpp
 	clang++ 5--chat-gpt.cpp -o 5--chat-gpt
+
+6--humans: 6--humans.cpp
+	clang++ 6--humans.cpp -o 6--humans
+
+6--chat-gpt: 6--chat-gpt.cpp
+	clang++ 6--chat-gpt.cpp -o 6--chat-gpt

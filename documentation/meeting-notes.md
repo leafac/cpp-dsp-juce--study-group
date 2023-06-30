@@ -1,3 +1,13 @@
+# 2023-06-28
+
+[**Meeting**](https://youtube.com/live/KucPvSp29ZA)
+
+Cwits received some more components but is now having problems with the power supply.
+
+Leandro solved Project Euler problem 6 in C++ and compared it to the ChatGPT solution. We also discussed best practices around numeric types in C++.
+
+Fotis finished simplifying sai'ke’s Filther to make it use less CPU.
+
 # 2023-06-14
 
 [**Meeting**](https://youtube.com/live/Iux_JHtlaYo)
@@ -6,7 +16,7 @@ Bo brought us an RBJ all-pass for us to implement, which is part of a widener he
 
 Cwits developed an user interface for a DAW running in the Ableton Push.
 
-Leandro solver Project Euler problem 5 in C++ and compared it to the ChatGPT solution.
+Leandro solved Project Euler problem 5 in C++ and compared it to the ChatGPT solution.
 
 # 2023-05-31
 
