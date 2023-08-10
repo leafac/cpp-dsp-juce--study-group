@@ -1,3 +1,24 @@
+# 2023-08-10
+
+[**Meeting**](https://youtube.com/live/2oy4973WGq8)
+
+Cwits got all parts working and is able to record and playback audio 🙌
+
+Leandro solved Project Euler problem 7 and showed that brute force goes a long way.
+
+Fotis showed a sketch of the user interface for his new not-Juno synthesizer, and showed a bunch of other interesting things. His homework is to come up with sliders for a time vs musical divisions modification he wants to do to a JSFX.
+
+Bo talked about his Revolver compressor, an RMS-based compressor with novel transfer curves. He also showed his implementation a really nerdy way of going about BPMs.
+
+---
+
+- https://www.youtube.com/watch?v=nUHEPmg0sPo
+- https://keypleezer.com/sfz-to-hise-converter/
+- https://www.airwindows.com/airwindows-nodal-tempo-guide/
+- https://goyo.app/
+- https://neutone.space/
+- https://github.com/stars/fotisandstuff/lists/nap
+
 # 2023-06-28
 
 [**Meeting**](https://youtube.com/live/KucPvSp29ZA)
