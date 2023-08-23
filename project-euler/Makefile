@@ -35,3 +35,6 @@ all: 1 2
 
 7--chat-gpt: 7--chat-gpt.cpp
 	clang++ 7--chat-gpt.cpp -o 7--chat-gpt
+
+8: 8.cpp
+	clang++ -std=c++11 8.cpp -o 8
