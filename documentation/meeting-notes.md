@@ -1,3 +1,18 @@
+# 2023-08-24
+
+[**Meeting**](https://youtube.com/live/-Obb3JzddzU)
+
+Fotis showed some updates to HISE, wrote some JSFX for sliders, and brought The Signal State for us to play together.
+
+Cwits is dealing with weird edge cases in MIDI files.
+
+Leandro coded Project Euler problem 8. We learned to use vectors and that we need to be mindful of `int` overflows.
+
+- https://github.com/ldrolez/free-midi-chords
+- https://github.com/edkashinsky/reaper-reableton-scripts
+- https://www.youtube.com/watch?v=_Jzz6GKdcFA
+- https://www.youtube.com/watch?v=EtNRuzKKtWI
+
 # 2023-08-10
 
 [**Meeting**](https://youtube.com/live/2oy4973WGq8)
