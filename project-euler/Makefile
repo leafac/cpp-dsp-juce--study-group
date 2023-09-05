@@ -38,3 +38,9 @@ all: 1 2
 
 8: 8.cpp
 	clang++ -std=c++11 8.cpp -o 8
+
+9--humans: 9--humans.cpp
+	clang++ 9--humans.cpp -o 9--humans
+
+9--chat-gpt: 9--chat-gpt.cpp
+	clang++ 9--chat-gpt.cpp -o 9--chat-gpt
