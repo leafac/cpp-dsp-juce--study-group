@@ -1,3 +1,24 @@
+# 2023-09-05
+
+[**Meeting**](https://youtube.com/live/X7pWjUN7GKQ)
+
+Fotis tried to get HISE’s new feature of time stretching to work, both from the GUI as well as from a script, but it didn’t work. Yet.
+
+Cwits showed us some file editing features in his project: cutting and pasting sections of audio, reversing audio, and so forth.
+
+Bo showed us some JSFX with a really clever idea for distortion in which the coefficient of a low-pass filter is modulated with the incoming signal.
+
+Leandro pitched an idea of a EWI with a Raspberry Pi Pico, showed a Hammerspoon script that disables a MacBook keyboard for cleaning, and worked on Project Euler’s problem 9.
+
+- https://github.com/leafac/hammerspoon
+- https://www.reddit.com/r/synthrecipes/comments/k4n1jj/dx7_in_vital_sure_why_not_plus_a_crash_course_in/
+- https://www.youtube.com/watch?v=-1dqCVg1mVU
+- https://github.com/bgins/coincident-spectra
+- https://coincident-spectra.fission.app/
+- https://www.youtube.com/watch?v=n9oOCTFhio4
+- https://github.com/cardonabits/haxo-hw
+- https://www.instructables.com/Make-a-Wind-controlled-MIDI-Instrument/
+
 # 2023-08-24
 
 [**Meeting**](https://youtube.com/live/-Obb3JzddzU)
