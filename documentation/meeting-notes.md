@@ -1,3 +1,15 @@
+# 2023-09-27
+
+[**Meeting**](https://youtube.com/live/ANL09qlun_Y)
+
+Aline is a special guest. She’s a friend of Leandro’s from college.
+
+Leandro introduced how to program a Raspberry Pi Pico with CircuitPython, which will be part of the EWI project pitched last meeting.
+
+Bo showed the code for a JSFX which splits the signal between low and high frequencies and distorts the low frequencies.
+
+Fotis is developing a user interface in HISE, and also showed a sequencer that runs in the browser and works by drawing shapes.
+
 # 2023-09-05
 
 [**Meeting**](https://youtube.com/live/X7pWjUN7GKQ)
