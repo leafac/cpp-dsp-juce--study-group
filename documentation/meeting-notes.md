@@ -8,7 +8,10 @@ Leandro introduced how to program a Raspberry Pi Pico with CircuitPython, which 
 
 Bo showed the code for a JSFX which splits the signal between low and high frequencies and distorts the low frequencies.
 
-Fotis is developing a user interface in HISE, and also showed a sequencer that runs in the browser and works by drawing shapes.
+Fotis is developing a user interface in HISE, and also showed a sequencer that runs in the browser and works by drawing shapes. Finally, he showed as a vocoder effect done in TurboSynth, from back in the 90s(!)
+
+- https://www.youtube.com/watch?v=_yHJ8fEJgf0
+- https://archive.org/details/macos9appinstaller
 
 # 2023-09-05
 
