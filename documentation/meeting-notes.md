@@ -1,3 +1,15 @@
+# 2023-10-11
+
+[**Meeting**](https://youtube.com/live/7kaXdROWfxU)
+
+Fotis showed us no-input mixing and REAPER’s Container FX that coming in REAPER 7.
+
+Cwits showed us an application he’s developing for Android that will find good ways to pack boxes.
+
+Bo showed us a distortion JSFX he’s developing.
+
+Leandro reported on the current state of the EWI: it’s sending MIDI notes and it has a button, but it’s running into issues with bouncing. He also shared his AI to detect screenshots of code that has been trained with https://teachablemachine.withgoogle.com/
+
 # 2023-09-27
 
 [**Meeting**](https://youtube.com/live/ANL09qlun_Y)
