@@ -1,3 +1,13 @@
+# 2023-10-25
+
+[**Meeting**](https://youtube.com/live/th3oXd-RGZM)
+
+Cwits is working on a GUI with Qt for his music project that uses a small touch-sensitive screen.
+
+Fotis showed us an old DIY analog switcher and played with scripts that create samples from synthesizers.
+
+V talked about how to implement convolution in JSFX and AI in the context of music production.
+
 # 2023-10-11
 
 [**Meeting**](https://youtube.com/live/7kaXdROWfxU)
