@@ -1,3 +1,19 @@
+# 2023-11-07
+
+[**Meeting**](https://youtube.com/live/tap2tanMBK0)
+
+Fotis showed us how to train a model for GuitarML.
+
+Cwits talked about some challenges trying to display a waveform with Qt.
+
+Leandro and our special guest David solved Project Euler problem 10 with C++.
+
+Bo shared with us his JSFX that’s a limiter with dynamic lowpass filtering.
+
+- https://www.youtube.com/watch?v=vwsSYpqRqyM
+- https://www.youtube.com/watch?v=2vs4WKYgZUs
+- http://xkcd.com/841/
+
 # 2023-10-25
 
 [**Meeting**](https://youtube.com/live/th3oXd-RGZM)
@@ -7,6 +23,12 @@ Cwits is working on a GUI with Qt for his music project that uses a small touch-
 Fotis showed us an old DIY analog switcher and played with scripts that create samples from synthesizers.
 
 V talked about how to implement convolution in JSFX and AI in the context of music production.
+
+- https://pasttofuturereverbs.gumroad.com/
+- https://guitarml.com/
+- https://www.youtube.com/watch?v=86oQuYHjpy0&feature=youtu.be
+- https://github.com/michaelholmes4/NNComp
+- https://www.youtube.com/watch?v=meZe5-ziDEE
 
 # 2023-10-11
 

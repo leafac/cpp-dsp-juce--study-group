@@ -44,3 +44,9 @@ all: 1 2
 
 9--chat-gpt: 9--chat-gpt.cpp
 	clang++ 9--chat-gpt.cpp -o 9--chat-gpt
+
+10--humans: 10--humans.cpp
+	clang++ 10--humans.cpp -o 10--humans
+
+10--chat-gpt: 10--chat-gpt.cpp
+	clang++ 10--chat-gpt.cpp -o 10--chat-gpt
