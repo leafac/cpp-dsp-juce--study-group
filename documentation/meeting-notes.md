@@ -1,3 +1,15 @@
+# 2023-11-23
+
+[**Meeting**](https://youtube.com/live/lwS6V6GQLLc)
+
+Fotis showed us the latest synth plugin by Tukan and his use of parallel effects in REAPER 7.
+
+Bo showed us an experiment with a cascade of FIR and IIR filters, and his attempt at a truly awful sounding plugin.
+
+Kevin talked about his wish for a “replace razor selection with the contents of the clipboard” action.
+
+Leandro announced that he’ll be attempting the Advent of Code this year.
+
 # 2023-11-07
 
 [**Meeting**](https://youtube.com/live/tap2tanMBK0)
