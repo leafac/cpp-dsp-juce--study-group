@@ -14,6 +14,23 @@ Leandro announced that he’ll be attempting the Advent of Code this year.
 - https://ultraschall.fm/api/
 - https://www.youtube.com/@musicpainter5109/videos
 
+Here’s the code that we wrote together to downsample:
+
+```
+@init
+
+sample_counter = 0;
+
+@sample
+
+sample_counter == 0 ? downsample = spl0;
+
+spl0 = downsample;
+
+sample_counter += 1;
+sample_counter == 6 ? sample_counter = 0;
+```
+
 # 2023-11-07
 
 [**Meeting**](https://youtube.com/live/tap2tanMBK0)
