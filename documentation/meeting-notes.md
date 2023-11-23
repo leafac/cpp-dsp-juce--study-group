@@ -10,6 +10,10 @@ Kevin talked about his wish for a “replace razor selection with the contents o
 
 Leandro announced that he’ll be attempting the Advent of Code this year.
 
+- https://www.stillwellaudio.com/plugins/spectro/
+- https://ultraschall.fm/api/
+- https://www.youtube.com/@musicpainter5109/videos
+
 # 2023-11-07
 
 [**Meeting**](https://youtube.com/live/tap2tanMBK0)
