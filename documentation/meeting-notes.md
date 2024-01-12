@@ -1,3 +1,11 @@
+# 2024-01-12
+
+[**Meeting**](https://youtube.com/live/GX4Pp2TGyoM)
+
+Fotis showed Cardinal’s version Surge XT’s effects, a collection of loopable audio forms captured from analog gear, and we discussed how to compile Faust effects to JSFX, including how to install Faust on Windows Subsystem for Linux.
+
+Leandro shared their progress on the DIY EWI project: We connected the microphone module to the power coming from the Raspberry Pi Pico and we managed to see the generated waveforms in the oscilloscope.
+
 # 2023-11-23
 
 [**Meeting**](https://youtube.com/live/lwS6V6GQLLc)
